@@ -8,7 +8,7 @@ const Contact = () => {
     const [number, setNumber] = useState('');
     const [disease, setDisease] = useState('');
     const [age, setAge] = useState('');
-    const [gender, setGender] = useState('');
+    const [gender, setGender] = useState('') ;
     const handleGenderChange = (e) => { setGender(e.target.value) }
     const handleSubmit = (e) => {
         e.preventDefault();
