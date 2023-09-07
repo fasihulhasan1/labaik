@@ -35,7 +35,7 @@ const Home = () => {
 
     return (
         <div className={`mt-8 grid grid-cols-2 text-white`}>
-            <div className="text-white p-8">
+            <div className="text-white p-8 animate-in slide-in-from-left duration-1000">
                 <h1 className="mb-5 lg:text-[80px] md:text-[50px] sm:text-[30px] mt-14 font-bold">
                     Welcome to Our Hospital
                 </h1>
@@ -43,7 +43,7 @@ const Home = () => {
                     Providing Quality Healthcare Services In Your Area <b>24/7</b>
                 </p>
             </div>
-            <div className="lg:text-[18px] md:text-[9px] sm:text-[5px] w-[90%] ">
+            <div className="lg:text-[18px] md:text-[9px] sm:text-[5px] w-[90%] animate-in zoom-in-0 duration-1000">
                 <Slider {...sliderSettings}>
                     <div>
                         <img
