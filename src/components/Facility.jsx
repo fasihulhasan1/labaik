@@ -32,7 +32,7 @@ const Facilities = () => {
   return (
     <section className="bg-gradient-to-r from-[#5594be] to-[#dd5243] py-16 animate-in slide-in-from-left duration-1000">
       <div className="max-w-screen-xl mx-auto px-4">
-        <h2 className="text-3xl font-semibold text-gray-800 mb-8">Our Facilities</h2>
+        <h2 className="text-3xl font-semibold text-white mb-8">Our Facilities</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {facilities.map((facility, index) => (
             <div key={index} className="bg-white p-4 rounded-lg shadow-md">

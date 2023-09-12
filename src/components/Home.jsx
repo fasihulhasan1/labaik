@@ -22,6 +22,8 @@ const Home = () => {
         slidesToScroll: 1,
         vertical: false,
         arrows: true,
+        autoplay: true, 
+        autoplaySpeed: 2000, 
     };
 
     const imageStyle = {
@@ -99,10 +101,9 @@ const Home = () => {
                 <p className=" text-lg px-5 py-8">
                     <h3>The best General Physicians in Aga Khan Hospital are:</h3>
                     <ul className="list-inside list-disc">
-                        <li>Prof. Dr. Riaz Quershi.</li>
-                        <li>Asst. Prof. Dr. Unab I Khan.</li>
-                        <li>Dr. Waris Qidwai.</li>
-                        <li> Dr. Yousaf Kamal Mirza.</li>
+                        <li>Dr. Muhammad Farraukh Fiaz.</li>
+                        <li>Dr. Muhammad Yamin.</li>
+                        <li> Dr. Ha     fiz Awais.</li>
                         <li>Dr. Seerat Uz Zehra.</li>
                         <li>Assoc. Prof. Dr. Saniya Sabzwari.</li>
                     </ul>

@@ -7,21 +7,22 @@ const Footer = () => {
             <div className="max-w-screen-xl mx-auto px-4">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <div className="mb-6">
-                        <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
+                        <h3 className="text-xl font-semibold mb-4">Address</h3>
                         <address>
-                            123 Main Street<br />
-                            City, State ZIP<br />
-                            Phone: (123) 456-7890<br />
-                            Email: info@hospital.com
+                            Bao Mehar Wali Gali<br />
+                            City, Lahore<br />
+                            Phone: 0341-1132709<br />
+                            Email: labbaikhospital.com
                         </address>
                     </div>
                     <div className="mb-6">
                         <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
                         <ul className="list-none">
                             <li><a href="/">Home</a></li>
-                            <li><a href="/about">About Us</a></li>
-                            <li><a href="/services">Services</a></li>
-                            <li><a href="/doctors">Doctors</a></li>
+                            <li><a href="/Facility">Facility</a></li>
+                            <li><a href="/About">About Us</a></li>
+                            <li><a href="/Contact">Contact Us</a></li>
+                            <li><a href="/Staff">Staff</a></li>
                         </ul>
                     </div>
                     <div className="mb-6">
@@ -53,7 +54,7 @@ const Footer = () => {
             </div>
             <div className="border-t border-gray-600 mt-8 pt-4">
                 <div className="max-w-screen-xl mx-auto text-center">
-                    <p>&copy; {new Date().getFullYear()} Your Hospital. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Labbaik Hospital. All rights reserved.</p>
                 </div>
             </div>
         </footer>
