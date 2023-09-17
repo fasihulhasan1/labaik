@@ -23,7 +23,7 @@ const About = () => {
           Our dedicated team of healthcare professionals includes experienced doctors, nurses, and support staff who are committed to delivering the best care possible. We believe in continuous learning and staying updated with the latest advancements in the medical field to offer you the best treatment options.
         </p>
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 underline hover:text-blue-700">
-          <a href="/Contact">Contact Us</a>
+          <a href="/Contact">Book Appointment</a>
         </h2>
         <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl mb-4">
           If you have any questions or need to schedule an appointment, please don't hesitate to reach out to us. We are here to serve you and provide the healthcare you deserve.

@@ -16,7 +16,7 @@ const Menu = () => {
                 <li className="hover:tracking-[3px] transition-all"><Link to={'/staff'} >Staff</Link></li>
                 <li className="hover:tracking-[3px] transition-all"><Link to={'facility'} >Facility</Link></li>
                 <li className="hover:tracking-[3px] transition-all"><Link to={'about'} >About</Link></li>
-                <li className="hover:tracking-[3px] transition-all"><Link to={'contact'} >Contact</Link></li>
+                <li className=""><Link to={'contact'} ><button className="p-1 rounded-md w-full text-white font-semibold bg-gradient-to-r from-cyan-500 to-purple-500 mb-10 hover:-translate-y-1.5 focus:outline-none transform transition focus:ring focus:ring-offset-2">Book Appointment</button></Link></li>
             </ul>
         </div>
     )

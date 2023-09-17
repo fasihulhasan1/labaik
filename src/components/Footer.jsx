@@ -21,8 +21,8 @@ const Footer = () => {
                             <li><a href="/">Home</a></li>
                             <li><a href="/Facility">Facility</a></li>
                             <li><a href="/About">About Us</a></li>
-                            <li><a href="/Contact">Contact Us</a></li>
                             <li><a href="/Staff">Staff</a></li>
+                            <li><button className='p-1 rounded-md text-white bg-gradient-to-r from-cyan-500 to-purple-500'><a href="/Contact">Book Appointment</a></button></li>
                         </ul>
                     </div>
                     <div className="mb-6">
